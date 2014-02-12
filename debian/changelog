@@ -1,3 +1,51 @@
+p7zip (9.20.1~dfsg.1-4) unstable; urgency=low
+
+  * Acknowledge NMU. Thanks to Gregor Herrmann.
+  * debian/control: bump Standards-Version to 3.9.2.
+  * debian/rules: add build-* targets.
+
+ -- Mohammed Adnène Trojette <adn+deb@diwi.org>  Sun, 08 Jan 2012 14:17:13 +0100
+
+p7zip (9.20.1~dfsg.1-3.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "p7zip FTBFS with multiarch libwxgtk2.8-dev": fix from peter green:
+    adjust 01_makefile.patch to the multiarched libwxgtk2.8-dev, and add
+    appropriate build dependencies.
+    (Closes: #652446)
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 31 Dec 2011 16:09:00 +0100
+
+p7zip (9.20.1~dfsg.1-3) unstable; urgency=low
+
+  * debian/patches:
+     + fix 7zr.1 and 7za.1 ambiguous sentence. (Closes: #636174)
+  * debian/control:
+     + fix p7zip-full's description
+        - wrong reference to p7zip. (Closes: #636186)
+        - capitalise Nautilus, uppercase GUI. (Closes: #636172)
+        - missing comma. (Closes: #636178)
+     + fix p7zip's description accordingly.
+
+ -- Mohammed Adnène Trojette <adn+deb@diwi.org>  Wed, 03 Aug 2011 12:43:08 +0200
+
+p7zip (9.20.1~dfsg.1-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Mohammed Adnène Trojette <adn+deb@diwi.org>  Tue, 28 Jun 2011 17:05:01 +0200
+
+p7zip (9.20.1~dfsg.1-1) experimental; urgency=low
+
+  * New upstream release (Closes: #620619)
+  * debian/control
+     + bump Standards-Version to 3.9.1.
+     + update and improve description. (Closes: #545871, #612770)
+  * manpages
+     + add supported formats. (Closes: #570427)
+
+ -- Mohammed Adnène Trojette <adn+deb@diwi.org>  Fri, 01 Apr 2011 21:20:22 +0200
+
 p7zip (9.04~dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
